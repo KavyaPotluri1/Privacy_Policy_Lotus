@@ -1,133 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Privacy Policy — Lotus Habits</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
       line-height: 1.6;
-      padding: 16px;
+      margin: 0;
+      padding: 20px;
+      background: #fafaf8;
+      color: #333;
+    }
+
+    .container {
       max-width: 800px;
       margin: auto;
+      background: #ffffff;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
-    h1, h2 {
-      margin-top: 24px;
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 8px;
     }
+
+    .meta {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-top: 28px;
+      font-size: 18px;
+      border-left: 4px solid #81BE6F;
+      padding-left: 10px;
+    }
+
+    h3 {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #444;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
     ul {
       padding-left: 20px;
+      margin: 10px 0;
     }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .highlight {
+      background: #f4f9f3;
+      padding: 10px;
+      border-radius: 6px;
+      margin: 10px 0;
+    }
+
+    a {
+      color: #2a7ae2;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #666;
+    }
+
   </style>
 </head>
+
 <body>
+  <div class="container">
 
-<h1>📄 Privacy Policy — Lotus Habits</h1>
+    <h1>📄 Privacy Policy — Lotus Habits</h1>
 
-<p><strong>Effective Date:</strong> April 20, 2026<br>
-<strong>Last Updated:</strong> April 20, 2026</p>
+    <div class="meta">
+      Effective Date: April 20, 2026<br/>
+      Last Updated: April 20, 2026
+    </div>
 
-<h2>1. Overview</h2>
-<p>
-Lotus Habits (“the App”, “we”, “our”) is a privacy-focused habit tracking and productivity application built for Android.
-</p>
-<ul>
-  <li>The App does not operate any servers or backend infrastructure</li>
-  <li>The App does not collect or store personal data on our systems</li>
-  <li>All data is stored locally on your device only</li>
-</ul>
-<p>
-However, the App uses limited third-party services (such as advertising providers) that may independently collect certain information.
-</p>
+    <h2>1. Overview</h2>
+    <p>
+      Lotus Habits (“the App”, “we”, “our”) is a privacy-focused habit tracking and productivity application built for Android.
+    </p>
 
-<h2>2. Data Storage (On-Device Only)</h2>
-<p>All data is stored exclusively on your device.</p>
+    <ul>
+      <li>The App does not operate any servers or backend infrastructure</li>
+      <li>The App does not collect personal data directly</li>
+      <li>All user data is stored locally on your device only</li>
+    </ul>
 
-<ul>
-  <li>Habits and schedules</li>
-  <li>Habit completion records</li>
-  <li>Daily tracker entries</li>
-  <li>Tasks and to-do items</li>
-  <li>Pomodoro session data</li>
-  <li>App settings and preferences</li>
-  <li>Notification configurations</li>
-  <li>App lock (biometric preference only)</li>
-</ul>
+    <p>
+      However, the App uses limited third-party services (such as advertising providers) that may collect certain information independently.
+    </p>
 
-<p><strong>Storage methods:</strong></p>
-<ul>
-  <li>SQLite</li>
-  <li>SharedPreferences</li>
-</ul>
+    <h2>2. Data Storage (On-Device Only)</h2>
+    <p>All user data is stored exclusively on your device and is not transmitted to us.</p>
 
-<p>✔ This data is not transmitted, accessible, or stored externally.</p>
+    <ul>
+      <li>Habits and schedules</li>
+      <li>Habit completion records</li>
+      <li>Daily tracker entries</li>
+      <li>Tasks and to-do items</li>
+      <li>Pomodoro session data</li>
+      <li>App settings and preferences</li>
+      <li>Notification configurations</li>
+      <li>App lock settings (biometric preference only)</li>
+    </ul>
 
-<h2>3. Data We Do Not Collect</h2>
-<ul>
-  <li>No user accounts</li>
-  <li>No personal information (name, email, phone)</li>
-  <li>No cross-app tracking</li>
-  <li>No remote storage</li>
-</ul>
+    <p><strong>Storage methods:</strong></p>
+    <ul>
+      <li>SQLite</li>
+      <li>SharedPreferences</li>
+    </ul>
 
-<h2>4. Third-Party Services</h2>
+    <div class="highlight">
+      ✔ This data is not accessed, collected, or stored externally.
+    </div>
 
-<h3>4.1 Google AdMob (Advertising)</h3>
-<p>The free version displays ads via Google AdMob.</p>
-<ul>
-  <li>Device identifiers</li>
-  <li>IP address</li>
-  <li>Ad interaction data</li>
-  <li>Device info</li>
-</ul>
-<p>This data is handled by Google, not us.</p>
+    <h2>3. Data We Do Not Collect</h2>
+    <ul>
+      <li>Personal information (name, email, phone number)</li>
+      <li>Account data (no login or signup system)</li>
+      <li>Cross-app tracking data</li>
+      <li>Remote or cloud-stored data</li>
+    </ul>
 
-<p><strong>User Control:</strong> You can disable ad personalization in Android settings.</p>
+    <h2>4. Third-Party Services</h2>
 
-<h3>4.2 In-App Purchases</h3>
-<ul>
-  <li>Processed by Google Play Store</li>
-  <li>No payment data stored by us</li>
-</ul>
+    <h3>4.1 Google AdMob (Advertising)</h3>
+    <p>The free version of the App displays ads using Google AdMob.</p>
 
-<h2>5. App Permissions</h2>
-<ul>
-  <li>Biometric — App lock</li>
-  <li>Notifications — Reminders</li>
-  <li>Exact Alarm — Scheduling</li>
-  <li>Storage — Backup/restore</li>
-</ul>
+    <p>AdMob may automatically collect:</p>
+    <ul>
+      <li>Device identifiers</li>
+      <li>IP address</li>
+      <li>Device and operating system information</li>
+      <li>Ad interaction data</li>
+    </ul>
 
-<h2>6. Data Backup & Export</h2>
-<ul>
-  <li>Manual backups only</li>
-  <li>Stored where you choose</li>
-  <li>We do not access backup files</li>
-</ul>
+    <p>This data is handled by Google, not by us.</p>
 
-<h2>7. Data Retention & Deletion</h2>
-<ul>
-  <li>Data stays on device</li>
-  <li>Uninstalling deletes app data</li>
-  <li>Backup files must be deleted manually</li>
-</ul>
+    <p><strong>Purpose:</strong></p>
+    <ul>
+      <li>Displaying ads</li>
+      <li>Personalization (where applicable)</li>
+      <li>Analytics and fraud prevention</li>
+    </ul>
 
-<h2>8. Data Security</h2>
-<ul>
-  <li>Use device lock</li>
-  <li>Enable app lock</li>
-  <li>Keep device updated</li>
-</ul>
+    <p>
+      More info:
+      <a href="https://policies.google.com/privacy" target="_blank">
+        https://policies.google.com/privacy
+      </a>
+    </p>
 
-<h2>9. Children’s Privacy</h2>
-<p>
-The App is not directed at children under 13 and does not knowingly collect data.
-</p>
+    <p><strong>User Control:</strong> You can disable ad personalization in Android settings.</p>
 
-<h2>10. Changes to This Policy</h2>
-<p>
-Updates will be reflected in the “Last Updated” date.
-</p>
+    <p>
+      In certain regions, users may be asked for consent for personalized ads.
+    </p>
 
+    <h3>4.2 In-App Purchases</h3>
+    <ul>
+      <li>Processed by Google Play Store</li>
+      <li>No payment data stored by us</li>
+    </ul>
 
+    <h2>5. App Permissions</h2>
+    <ul>
+      <li><strong>Biometric</strong> — App lock</li>
+      <li><strong>Notifications</strong> — Reminders</li>
+      <li><strong>Exact Alarm</strong> — Scheduling</li>
+      <li><strong>Storage</strong> — Backup/restore</li>
+    </ul>
+
+    <h2>6. Data Sharing</h2>
+    <p>
+      We do not sell or share your personal data. However, third-party services like AdMob may process data independently.
+    </p>
+
+    <h2>7. Data Backup & Export</h2>
+    <ul>
+      <li>Manual backups only</li>
+      <li>Stored where you choose</li>
+      <li>We do not access backup files</li>
+    </ul>
+
+    <h2>8. Data Retention & Deletion</h2>
+    <ul>
+      <li>Data stays on your device</li>
+      <li>Uninstalling deletes app data</li>
+      <li>Backup files must be deleted manually</li>
+    </ul>
+
+    <h2>9. Data Security</h2>
+    <ul>
+      <li>Android app sandboxing</li>
+      <li>Permission controls</li>
+      <li>Device-level security</li>
+    </ul>
+
+    <p>We recommend keeping your device secure and updated.</p>
+
+    <h2>10. User Rights</h2>
+    <p>
+      Depending on your location, you may have rights under data protection laws.
+    </p>
+
+    <ul>
+      <li>You can manage your data directly in the App</li>
+      <li>You can delete all data by uninstalling the App</li>
+    </ul>
+
+    <h2>11. Children’s Privacy</h2>
+    <p>
+      This App is not intended for children under 13 and does not knowingly collect data.
+    </p>
+
+    <h2>12. Changes to This Policy</h2>
+    <p>
+      Updates will be reflected in the “Last Updated” date.
+    </p>
+
+    <h2>13. Contact Us</h2>
+    <p>
+      Email: <strong>lotushabits.support@gmail.com</strong>
+    </p>
+
+    <div class="footer">
+      © 2026 Lotus Habits
+    </div>
+
+  </div>
 </body>
 </html>
